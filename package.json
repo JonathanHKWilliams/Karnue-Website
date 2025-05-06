@@ -1,0 +1,17 @@
+{
+  "name": "rydeez-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "cd apps/landing && npm run dev",
+    "build": "cd apps/landing && npm run build",
+    "start": "cd apps/landing && npm run start"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
