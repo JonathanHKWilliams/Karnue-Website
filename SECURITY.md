@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability within the Karnue website, please send an email to security@karnue.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within the Karnue website, please send an email to info@karnue.com. All security vulnerabilities will be promptly addressed.
 
 Please include the following information in your report:
 
