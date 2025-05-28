@@ -1,7 +1,8 @@
 {
-  "name": "rydeez-monorepo",
+  "name": "karnue-website-monorepo",
   "version": "0.1.0",
   "private": true,
+  "description": "Karnue premium ride-hailing service website",
   "workspaces": [
     "apps/*",
     "packages/*"
@@ -9,7 +10,9 @@
   "scripts": {
     "dev": "cd apps/landing && npm run dev",
     "build": "cd apps/landing && npm run build",
-    "start": "cd apps/landing && npm run start"
+    "export": "cd apps/landing && npm run export",
+    "start": "cd apps/landing && npm run start",
+    "lint": "cd apps/landing && npm run lint"
   },
   "devDependencies": {
     "typescript": "^5.2.2"

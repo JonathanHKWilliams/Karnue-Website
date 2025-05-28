@@ -51,7 +51,7 @@ export default function AboutPage() {
               <div className="absolute -top-4 -left-4 w-20 h-20 bg-primary/10 rounded-full blur-xl"></div>
               <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-accent/10 rounded-full blur-xl"></div>
               
-              <div className="relative rounded-xl overflow-hidden shadow-xl">
+              <div className="relative rounded-xl overflow-hidden outline-lg">
                 <Image 
                   src="/images/team.jpg" 
                   alt="Karnue Team" 
@@ -77,7 +77,7 @@ export default function AboutPage() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Value 1 */}
-            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow text-center">
+            <div className="bg-white rounded-xl p-6 outline-lg hover:outline-xl transition-outline text-center">
               <div className="relative w-full h-40 mb-4 rounded-lg overflow-hidden">
                 <Image 
                   src="https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
@@ -93,7 +93,7 @@ export default function AboutPage() {
             </div>
             
             {/* Value 2 */}
-            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow text-center">
+            <div className="bg-white rounded-xl p-6 outline-lg hover:outline-xl transition-outline text-center">
               <div className="relative w-full h-40 mb-4 rounded-lg overflow-hidden">
                 <Image 
                   src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" 
@@ -109,7 +109,7 @@ export default function AboutPage() {
             </div>
             
             {/* Value 3 */}
-            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow text-center">
+            <div className="bg-white rounded-xl p-6 outline-lg hover:outline-xl transition-outline text-center">
               <div className="relative w-full h-40 mb-4 rounded-lg overflow-hidden">
                 <Image 
                   src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
@@ -125,7 +125,7 @@ export default function AboutPage() {
             </div>
             
             {/* Value 4 */}
-            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow text-center">
+            <div className="bg-white rounded-xl p-6 outline-lg hover:outline-xl transition-outline text-center">
               <div className="relative w-full h-40 mb-4 rounded-lg overflow-hidden">
                 <Image 
                   src="https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
@@ -155,7 +155,7 @@ export default function AboutPage() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Team Member 1 */}
-            <div className="bg-gray-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-gray-50 rounded-xl overflow-hidden outline-lg hover:shadow-xl transition-shadow">
               <div className="h-64 relative">
                 <Image 
                   src="/images/ceo.jpg" 
@@ -174,7 +174,7 @@ export default function AboutPage() {
             </div>
             
             {/* Team Member 2 */}
-            <div className="bg-gray-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-gray-50 rounded-xl overflow-hidden outline-lg hover:outline-xl transition-outline">
               <div className="h-64 relative">
                 <Image 
                   src="/images/cto.jpg" 
@@ -193,7 +193,7 @@ export default function AboutPage() {
             </div>
             
             {/* Team Member 3 */}
-            <div className="bg-gray-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-gray-50 rounded-xl overflow-hidden outline-lg hover:outline-xl transition-outline">
               <div className="h-64 relative">
                 <Image 
                   src="/images/coo.jpg" 
@@ -250,13 +250,13 @@ export default function AboutPage() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/waitlist" className="bg-primary hover:bg-primary/90 text-white font-medium py-3 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all">
+              <Link href="/waitlist" className="bg-primary hover:bg-primary/90 text-white font-medium py-3 px-8 rounded-lg outline-lg hover:outline-xl transition-all">
                 Join as Rider
               </Link>
-              <Link href="/waitlist?type=driver" className="bg-accent hover:bg-accent/90 text-white font-medium py-3 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all">
+              <Link href="/waitlist?type=driver" className="bg-accent hover:bg-accent/90 text-white font-medium py-3 px-8 rounded-lg outline-lg hover:outline-xl transition-all">
                 Join as Driver
               </Link>
-              <Link href="/careers" className="bg-secondary hover:bg-secondary/90 text-white font-medium py-3 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all">
+              <Link href="/careers" className="bg-secondary hover:bg-secondary/90 text-white font-medium py-3 px-8 rounded-lg outline-lg hover:outline-xl transition-all">
                 View Careers
               </Link>
             </div>

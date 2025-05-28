@@ -1,9 +1,9 @@
-# RydeEz Project Setup Script
-# This script will set up the Next.js project with all required dependencies
+# Karnue Project Setup Script
+# This script will set up the Karnue Website project with all required dependencies
 
-Write-Host "Setting up RydeEz project..." -ForegroundColor Cyan
+Write-Host "Setting up Karnue Website project..." -ForegroundColor Cyan
 
-# Navigate to the landing page directory
+# Navigate to the website directory
 Set-Location -Path ".\apps\landing"
 
 # Install Next.js and React dependencies
@@ -26,6 +26,9 @@ npx tailwindcss init -p
 # Return to root directory
 Set-Location -Path "..\.."
 
-Write-Host "Setup complete! You can now run the development server:" -ForegroundColor Cyan
-Write-Host "cd apps/landing" -ForegroundColor Yellow
+Write-Host "Setup complete! You can now run the website development server:" -ForegroundColor Cyan
 Write-Host "npm run dev" -ForegroundColor Yellow
+
+Write-Host "To build the static website for production:" -ForegroundColor Cyan
+Write-Host "npm run build" -ForegroundColor Yellow
+Write-Host "npm run export" -ForegroundColor Yellow
